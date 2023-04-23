@@ -1,0 +1,24 @@
+.Result {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: stretch;
+}
+
+.Result > * {
+    flex: 1 1 auto;
+    /* flex-direction: column; */
+    /* border: 1px red solid; */
+    margin: 5px;  /* and that, will result in a 10px gap */
+}
+
+.rtable {
+    border: 1px solid black;
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 2px;
+    width: -webkit-fill-available;
+}
