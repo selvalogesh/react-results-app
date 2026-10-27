@@ -1,0 +1,29 @@
+{
+  "name": "mongo-odata-api",
+  "version": "1.0.0",
+  "description": "Perfect backend for odata",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ./server.js",
+    "start:dev": "nodemon ./server.js"
+  },
+  "keywords": [
+    "odata",
+    "mongo",
+    "backend"
+  ],
+  "author": "Selva Logesh R",
+  "license": "ISC",
+  "dependencies": {
+    "convert-excel-to-json": "^1.7.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.9",
+    "simple-odata-server": "^1.1.1",
+    "simple-odata-server-mongodb": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
